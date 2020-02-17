@@ -1,5 +1,4 @@
 {% extends 'base.html' %}
-
 {% block content %}
 
 <h1>All parts</h1>
@@ -7,6 +6,7 @@
 {% block cardcontent %}
 {% for part in parts %}
 <p>{{ part.name }}</p>
+<img src="{{ part.image.url }}" alt="{{ part.name }} _image">
 {% endfor %}
 {% endblock %}
 

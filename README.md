@@ -204,6 +204,8 @@ Spencer Barriball
 
 Code Institute students on Slack
 
+@ckz8780 on Slack for fixing my MEDIA_ROOT issue
+
 ## Sources of information
 
 Django documentation v3.0:
