@@ -154,7 +154,13 @@ To retouch product photographs.
 
 [https://github.com/](https://github.com/)
 
-**Pillow**
+**Pillow 7.0.0**
+
+For image processing used version 7.0.0 of Pillow. Pillow is a Python imaging
+
+Python Imaging Library (abbreviated as PIL) (in newer versions known as Pillow) is a free library for the Python programming language that adds support for opening, manipulating, and saving many different image file formats.
+
+[https://pypi.org/project/Pillow/](https://pypi.org/project/Pillow/)
 
 ## Testing
 
@@ -197,6 +203,14 @@ The Code Institute team
 Spencer Barriball
 
 Code Institute students on Slack
+
+## Sources of information
+
+Django documentation v3.0:
+
+[https://docs.djangoproject.com/en/3.0/](https://docs.djangoproject.com/en/3.0/)
+
+Code Institute tutorials....
 
 **Start Bootstrap**
 
