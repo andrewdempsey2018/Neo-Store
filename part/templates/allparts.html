@@ -4,4 +4,10 @@
 
 <h1>All parts</h1>
 
+{% block cardcontent %}
+{% for part in parts %}
+<p>{{ part.name }}</p>
+{% endfor %}
+{% endblock %}
+
 {% endblock %}
