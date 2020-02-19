@@ -25,7 +25,7 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
-      <a class="navbar-brand" href="#">Start Bootstrap</a>
+      <a class="navbar-brand" href="#">Neo Store</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
         aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -38,10 +38,10 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="#">Register</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Services</a>
+            <a class="nav-link" href="#">Questions</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Contact</a>
@@ -60,9 +60,11 @@
 
         <h1 class="my-4">Neo Store</h1>
         <div class="list-group">
-          <a href="{% url 'index' %}" class="list-group-item">Category 1</a>
-          <a href="{% url 'single' %}" class="list-group-item">Category 2</a>
-          <a href="#" class="list-group-item">Category 3</a>
+          <a href="{% url 'index' %}" class="list-group-item">All</a>
+          <a href="{% url 'controls' %}" class="list-group-item">Controls</a>
+          <a href="{% url 'electrics' %}" class="list-group-item">Electrics</a>
+          <a href="{% url 'art' %}" class="list-group-item">Replacement art</a>
+          <a href="#" class="list-group-item">Members Only Deals</a>
         </div>
 
       </div>

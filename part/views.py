@@ -10,7 +10,14 @@ def index(request):
     # Pass the 'parts' set to the 'allparts' template for display
     return render(request, 'listparts.html', {'parts': parts})
 
-def single(request):
-    #parts = Part.objects.all()
-    parts = Part.objects.filter(name='bluebutton')
+def controls(request):
+    parts = Part.objects.filter(category='controls')
+    return render(request, 'listparts.html', {'parts': parts})
+
+def electrics(request):
+    parts = Part.objects.filter(category='electrics')
+    return render(request, 'listparts.html', {'parts': parts})
+
+def art(request):
+    parts = Part.objects.filter(category='art')
     return render(request, 'listparts.html', {'parts': parts})
