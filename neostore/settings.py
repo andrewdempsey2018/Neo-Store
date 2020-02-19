@@ -25,7 +25,7 @@ SECRET_KEY = '1am$f9u7w6xso8yd&0ygdl-_i2sb$)lje%gw%pm6azx-ym^0=i'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['neo-geo-store.herokuapp.com']
+ALLOWED_HOSTS = ['localhost', 'neo-geo-store.herokuapp.com']
 
 
 # Application definition
@@ -118,6 +118,8 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
+
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 STATIC_URL = '/static/'
 

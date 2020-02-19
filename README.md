@@ -198,7 +198,8 @@ Uses SQLite database for development and testing (not suitable for production)
 
 **How the website was deployed on Heroku**
 
-*Gunicorn
+* Gunicorn
+* Explain the contents of the procfile
 
 ## Credits
 
