@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<h1>All parts</h1>
+
+{% block cardcontent %}
+{% for part in parts %}
+<div class="col-lg-4 col-md-6 mb-4">
+    
+    <div class="card h-100">
+        <a href="#"><img class="card-img-top" src="{{ part.image.url }}" alt="{{ part.name }} _image"></a>
+        <div class="card-body">
+            <h4 class="card-title">
+                <a href="#">{{ part.name }}</a>
+            </h4>
+            <h5>$24.99</h5>
+            <p class="card-text">{{ part.description }}</p>
+        </div>
+        <div class="card-footer">
+            <button type="button" class="btn btn-outline-primary">Add to cart</button>
+        </div>
+    </div>
+    
+</div>
+{% endfor %}
+{% endblock %}
+
+{% endblock %}
