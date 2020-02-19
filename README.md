@@ -162,6 +162,8 @@ Python Imaging Library (abbreviated as PIL) (in newer versions known as Pillow) 
 
 [https://pypi.org/project/Pillow/](https://pypi.org/project/Pillow/)
 
+**Gunicorn**
+
 ## Testing
 
 **Testing with Jasmine?**
@@ -195,6 +197,8 @@ If one wanted to run the website from downloading the GitHub repository zip they
 Uses SQLite database for development and testing (not suitable for production)
 
 **How the website was deployed on Heroku**
+
+*Gunicorn
 
 ## Credits
 
