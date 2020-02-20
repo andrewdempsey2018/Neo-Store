@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+{% block midcontent %}
+
+<h3>{{ part.name }}</h3>
+<img src="{{ part.image.url }}" alt="">
+<p>{{ part.description }}</p>
+<p>{{ part.price }}</p>
+
+{% endblock %}
+
+{% endblock %}

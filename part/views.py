@@ -21,3 +21,7 @@ def electrics(request):
 def art(request):
     parts = Part.objects.filter(category='art')
     return render(request, 'listparts.html', {'parts': parts})
+
+def dedicated(request):
+    part = Part.objects.get(id=request.GET.get('id'))
+    return render(request, 'dedicated.html', {'part': part})
