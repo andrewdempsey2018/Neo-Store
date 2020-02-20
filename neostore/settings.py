@@ -34,10 +34,12 @@ INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
+    # Sessions included for shopping cart functionality
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'part',
+    'cart',
 ]
 
 MIDDLEWARE = [
