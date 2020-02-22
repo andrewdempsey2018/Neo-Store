@@ -23,7 +23,6 @@ urlpatterns = [
     path('', include('part.urls')),
     path('parts/', include('part.urls')),
     path('parts/dedicated', include('part.urls')),
-    path('cart/', include('cart.urls')),
     path('admin/', admin.site.urls),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 # Page 1146 of Docs

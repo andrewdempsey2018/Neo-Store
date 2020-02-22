@@ -11,7 +11,7 @@
   <title>Neo Store</title>
 
   {% load static %}
-  
+
   <!-- Bootstrap core CSS -->
   <link href="{% static "vendor/bootstrap/css/bootstrap.min.css" %}" rel="stylesheet">
 
@@ -46,11 +46,6 @@
           <li class="nav-item">
             <a class="nav-link" href="#">Contact</a>
           </li>
-          <!-- Temporary cart link -->
-          <li class="nav-item">
-            <a class="nav-link" href="{% url 'cart' %}">Cart</a>
-          </li>
-          <!-- Temporary cart link -->
         </ul>
       </div>
     </div>
@@ -73,10 +68,11 @@
         </div>
 
       </div>
+
       <!-- /.col-lg-3 -->
-
+      
       <div class="col-lg-9">
-
+        {% block carousel %}
         <div id="carouselExampleIndicators" class="carousel slide my-4" data-ride="carousel">
           <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -103,6 +99,7 @@
             <span class="sr-only">Next</span>
           </a>
         </div>
+        {% endblock %}
 
         <div class="row">
           {% block midcontent %}
@@ -111,6 +108,7 @@
         <!-- /.row -->
 
       </div>
+      
       <!-- /.col-lg-9 -->
 
     </div>
